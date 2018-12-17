@@ -1,0 +1,87 @@
+a {
+    color: #999;
+}
+
+a:hover {
+    color: #5f5f5f;
+}
+
+header {
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: #24292E;
+}
+
+@media (max-width: 625px) {
+    #logo a {
+        color: #00C0FF;
+        font-size: 1.5em;
+        font-family:"Leixo Demo", sans-serif;
+    }    
+}
+
+#logo {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#logo a {
+    color: #00C0FF;
+    font-size: 3.5em;
+    font-family:"Leixo Demo", sans-serif;
+}
+
+
+footer {
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: #24292E;
+    color: #fff;
+}
+
+#rights {
+    font-size: 1.1em;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 325px) {
+    #rights {
+        font-size: 1.1em;
+        margin-top: 5px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 324px) {
+    #rights {
+        font-size: 0.8em;
+        margin-top: 5px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+#social {
+    width: 100%;
+    text-align: center;
+}
+
+#social a {
+    color: #fff;
+    font-size: 1.4em;
+    margin-right: 10px;
+    padding: 5px 7px;
+}
+
+#social a:hover {
+    color: #828282;
+}
